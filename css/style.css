@@ -1,0 +1,208 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    color: cyan !important;
+}
+
+.nav-link {
+    font-size: 12px;
+    color: white !important;
+}
+
+.nav-link:hover{
+    font-size: 12px;
+    color: cyan !important;
+    border-bottom-width: 1px; 
+    border-bottom-style: solid;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 254 254);
+    border-color: none;
+}
+
+.header {
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    margin: 160px 0px 180px 0px;
+}
+
+.arrow {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.down {
+    animation: bounce 2.5s infinite; 
+       -webkit-animation: bounce 2.5s infinite; 
+       -moz-animation: bounce 2.5s infinite; 
+       -o-animation: bounce 2.5s infinite; 
+}
+
+@-webkit-keyframes bounce {
+    0%,  
+    100% {
+       -webkit-transform: translateY(0);
+    } 
+    50% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+@-moz-keyframes bounce {
+    0%, 
+    100% {
+       -moz-transform: translateY(0);
+    }
+    50% {
+       -moz-transform: translateY(-10px);
+    }
+}
+@-o-keyframes bounce {
+    0%,
+    100% {
+       -o-transform: translateY(0);
+    }
+    50% {
+       -o-transform: translateY(-10px);
+    }
+}
+@keyframes bounce {
+    0%,  
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.about {
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    
+}
+
+.overlay-about {
+    background-color: rgba(17, 204, 236, 0.938);
+    padding: 40px 0px 40px 0px;
+}
+
+.about-content {
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+
+#services{
+    padding: 40px 180px 40px 180px;
+    margin: 60px 0px 60px 0px;
+}
+
+
+.footer {
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.overlay-footer {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+#left-foot {
+    text-align: left;
+}
+
+
+#right-foot {
+    text-align: right;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px 12px 10px 12px; /* Some padding */
+    font-size: 20px; /* Increase font size */
+    border-radius: 100px;
+  }
+  
+  #myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+  }
+
+
+
+@media only screen and (max-width: 480px) {
+    #services{
+        padding: 0;
+        margin: 40px 0px 8=40px 0px;
+    }
+
+    #left-foot {
+        text-align: center;
+    }
+    
+    
+    #right-foot {
+        text-align: center;
+    }
+
+    #branding {
+        font-size: 58px !important;
+    }
+
+    #tagline {
+        font-size: 14px !important;
+    }
+
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+     
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.8); 
+    
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(116, 116, 116, 0.705); 
+}
