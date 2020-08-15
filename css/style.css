@@ -174,10 +174,11 @@ html {
     font-size: 80px;
     padding: 0;
     margin-bottom: -15px;
+    font-weight: 800;
 }
 
 #subhead {
-    font-size: 20px;
+    font-size: 21px;
 }
 
 
@@ -202,6 +203,7 @@ html {
     #branding {
         font-size: 65px !important;
         margin-bottom: -5px;
+        font-weight: 800;
     }
 
     #subhead {
